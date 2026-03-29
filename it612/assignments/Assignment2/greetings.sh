@@ -12,4 +12,6 @@
 first_name=Jane
 last_name=Doe
 
-# Do not modify the above. Start your code here.
+echo "Hello"
+echo -e "${first_name}\t${last_name}" # -e for escape sequences like \t
+echo "How are you?"
